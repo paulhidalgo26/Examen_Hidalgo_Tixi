@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Examen_Hidalgo_Tixi</string>
+    <string name="VectorOrdenadoIndice">Vector ordenado por indice</string>
+    <string name="VectorOriginal">vectorOriginal</string>
+    <string name="vectorIndices">Vector Indices</string>
+    <string name="ButtonSiguiente">Siguiente</string>
+    <string name="ButtonMostrar">Mostrar</string>
+    <string name="ButtonOrdenar">Ordenar</string>
 </resources>
