@@ -66,6 +66,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
             android:layout_weight="1"
+            android:onClick="CerrarHP_DT"
             android:text="Cerrar"
             app:layout_constraintStart_toStartOf="parent" />
 
