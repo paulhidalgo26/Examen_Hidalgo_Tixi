@@ -38,8 +38,8 @@ public class MainActivityHP_DT extends AppCompatActivity {
                         if (intent !=null){
 
                           valores= Collections.singletonList(intent.getStringExtra("resultado"));
-                           // ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, valores);
-
+                            InsertarValoresHP_DT();
+                            valor.setText(valores.toString());
                         }
                     }
 
@@ -47,7 +47,12 @@ public class MainActivityHP_DT extends AppCompatActivity {
             }
     );
 
+    public void InsertarValoresHP_DT() {
 
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, valores);
+        lista1.setAdapter(adapter);
+
+    }
 
 
     @Override
