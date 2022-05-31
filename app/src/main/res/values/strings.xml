@@ -6,4 +6,7 @@
     <string name="ButtonSiguiente">Siguiente</string>
     <string name="ButtonMostrar">Mostrar</string>
     <string name="ButtonOrdenar">Ordenar</string>
+    <string name="Numeros">Ingrese un Numero</string>
+    <string name="ButtonInsertar">Insertar</string>
+    <string name="ButtonCerrar">Cerrar</string>
 </resources>
