@@ -11,4 +11,8 @@ public class SegundoActivityHP_DT extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_segundo_hp_dt);
     }
+
+    public void Cerrar(View view){
+
+    }
 }
