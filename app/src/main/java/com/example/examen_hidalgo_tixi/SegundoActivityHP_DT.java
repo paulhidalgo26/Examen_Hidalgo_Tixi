@@ -30,8 +30,8 @@ public class SegundoActivityHP_DT extends AppCompatActivity {
 
     public void CerrarHP_DT(View view) {
         Intent intent = new Intent();
-        intent.putExtra("resultado",edt.getText().toString());
-        setResult(70, intent );
+        intent.putExtra("resultado",numeros.toString());
+        setResult(78, intent );
         finish();
 
         SegundoActivityHP_DT.super.onBackPressed();
