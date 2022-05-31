@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -16,6 +17,7 @@ public class SegundoActivityHP_DT extends AppCompatActivity {
     private EditText edt;
     private ListView lista;
     private Button cerar;
+    private List<String> numeros= new ArrayList<String>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,8 +37,13 @@ public class SegundoActivityHP_DT extends AppCompatActivity {
         SegundoActivityHP_DT.super.onBackPressed();
     }
 
-    public void Ingresar(View view) {
 
 
+    public void InsertarHP_DT(View view) {
+       numeros.add(edt.getText().toString());
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, numeros);
+        lista.setAdapter(adapter);
+        edt.setText("");
     }
+
 }
